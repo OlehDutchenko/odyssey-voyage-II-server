@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "router": "dotenv -e ./.env ./router/router --config ./router/config.yaml"
+  },
+  "dependencies": {
+    "dotenv-cli": "^7.3.0"
+  }
+}
