@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "router": "dotenv -e ./.env ./router/router --config ./router/config.yaml"
+    "router": "dotenv -e ./.env ./router/router --config ./router/config.yaml",
+    "subgraph-accounts:start": "cd subgraph-accounts && npm run start"
   },
   "dependencies": {
     "dotenv-cli": "^7.3.0"
